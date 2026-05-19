@@ -1,0 +1,3 @@
+# Runtime deps only — pure numpy inference, no ML framework needed
+numpy>=1.24
+scikit-learn>=1.3   # TF-IDF vectorizer, used at inference time

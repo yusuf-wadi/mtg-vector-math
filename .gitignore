@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Data (large files — copy from mtg-oracle manually)
+data/oracle-slim.json.gz
+data/oracle-tags.json.gz
+data/labels.npy
+data/card_index.json
+
+# Models (generated artifacts — not committed)
+models/encoder.pkl
+models/axis_scale.npy
+
+# Misc
+.DS_Store
+*.ipynb_checkpoints

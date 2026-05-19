@@ -1,0 +1,5 @@
+# Training deps — not needed at inference/deploy time
+-r requirements.txt
+torch>=2.1
+sentence-transformers>=2.6   # bge-small-en-v1.5 teacher
+tqdm>=4.66
